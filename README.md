@@ -1,10 +1,16 @@
 # CTAPDEVL
 
-A collection of small Android learning and portfolio apps built with Java and
-Gradle. Each subfolder is a self-contained project exploring a core Android
-concept — from basic view interaction to Intents and animations.
+Learning and portfolio Android apps built for the course **CTAPDEVL —
+Applications Development and Emerging Technologies**.
+
+This repository collects the hands-on projects completed throughout the course.
+Each subfolder is a self-contained app written in Java with Gradle, exploring a
+core Android concept — from basic view interaction to Intents and animations —
+as a record of progress and a small portfolio of coursework.
 
 ## Table of contents
+
+- [About the course](#about-the-course)
 
 - [Projects](#projects)
 - [Installation](#installation)
@@ -14,6 +20,25 @@ concept — from basic view interaction to Intents and animations.
 - [Getting help](#getting-help)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## About the course
+
+**CTAPDEVL — Applications Development and Emerging Technologies** is a course at **National University (NU)**. It
+covers native Android development in Java with Android Studio, progressing from
+UI fundamentals through Intents, animations, and local data storage (SQLite),
+and culminating in a documented application-development project.
+
+The apps in this repository are the hands-on coursework deliverables. Each maps
+to an activity from the course:
+
+| App | Course activity |
+| --- | --- |
+| `SimpleGreeting` | Week 5 — Lab Activity 1 (first Android app) |
+| `ChristmasGreetingCard` | Week 7 — Midterm Activity |
+| `CVApp` | Week 10 — Digital CV app |
+
+They are learning exercises and portfolio pieces rather than production
+software.
 
 ## Projects
 
@@ -102,11 +127,15 @@ and the steps to reproduce.
 
 ## License
 
-No license has been specified. All rights reserved by the author unless a
-`LICENSE` file is added.
+No license has been specified. These are academic coursework projects; all
+rights reserved by the author unless a `LICENSE` file is added. If you are a
+fellow student, please treat this as reference material and follow your
+institution's academic-integrity policy rather than submitting it as your own.
 
 ## Acknowledgments
 
-This README is based on the **[READMINE](https://github.com/mhucka/readmine)**
-template by Michael Hucka, discovered via the
-[awesome-readme](https://github.com/matiassingers/awesome-readme) list.
+- Coursework for **CTAPDEVL — Applications Development and Emerging
+  Technologies** (National University (NU).
+- This README is based on the **[READMINE](https://github.com/mhucka/readmine)**
+  template by Michael Hucka, discovered via the
+  [awesome-readme](https://github.com/matiassingers/awesome-readme) list.
