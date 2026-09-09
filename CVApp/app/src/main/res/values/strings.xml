@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CVApp</string>
+    <string name="profile_photo" />
+    <string name="Contact" />
+    <string name="junior_machine_engineer">Junior Machine Engineer</string>
+    <string name="_639691912966">+639691912966</string>
+    <string name="rbodarve_gmail_com">rbodarve@gmail.com</string>
+    <string name="davao_city_philippines">Davao City, Philippines</string>
+    <string name="linkedin_profile">LinkedIn Profile</string>
+    <string name="background">Background</string>
+    <string name="a_fresh_graduate_that_is_passionate_about_creating_machine_learning_models_skilled_in_object_detection_and_nlp">A fresh graduate that is passionate about creating machine learning models. Skilled in Object Detection and NLP.</string>
+    <string name="education">Education</string>
+    <string name="bachelor_of_computer_science_major_in_machine_learning_nnational_university_manila_n2023_2026">Bachelor of Computer Science Major in Machine Learning\nNational University Manila\n2023 - 2026</string>
+    <string name="skills">Skills</string>
+    <string name="java_python_c_assembly_n_android_studio_google_colab_n_overleaf_microsoft_teams_roboflow_n_git_docker_wsl2">• Java, Python, C++, Assembly\n• Android Studio, Google Colab\n• Overleaf, Microsoft Teams, Roboflow\n• Git, Docker, WSL2</string>
+    <string name="projects">Projects</string>
+    <string name="nsfw_detector_nan_android_app_that_censors_part_of_the_screen_that_is_considered_nsfw">NSFW Detector\nAn Android app that censors part of the screen that is considered NSFW.</string>
+    <string name="call">Call</string>
+    <string name="email">Email</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="renaire_b._odarve">Renaire B. Odarve</string>
+</resources>

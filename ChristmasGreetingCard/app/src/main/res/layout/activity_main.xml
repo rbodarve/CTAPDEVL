@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/christmas_background"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/topBorder"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:contentDescription="@null"
+        android:src="@drawable/snow_border"
+        android:alpha="0.85"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/starIcon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="-15dp"
+        android:alpha="0.9"
+        android:contentDescription="@null"
+        android:src="@drawable/star"
+        app:layout_constraintBottom_toTopOf="@id/treeImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/treeImage"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="88dp"
+        android:alpha="0.95"
+        android:contentDescription="@null"
+        android:src="@drawable/christmas_tree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBorder" />
+
+    <ScrollView
+        android:id="@+id/scrollArea"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="36dp"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/treeImage"
+        app:layout_constraintBottom_toTopOf="@id/toastButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/greet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/greatvibes_regular"
+                android:text="@string/greetings"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:textSize="22sp"
+                android:paddingTop="12dp" />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:fontFamily="@font/comfortaa_regular"
+                android:lineSpacingExtra="6dp"
+                android:paddingTop="24dp"
+                android:text="@string/dear"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/signature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/greatvibes_regular"
+                android:text="@string/from_your_name_here"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:textSize="22sp"
+                android:paddingTop="12dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/toastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1B5E20"
+        android:paddingHorizontal="26dp"
+        android:paddingVertical="15dp"
+        android:text="@string/send_christmas_greeting"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/bottomBorder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:id="@+id/bottomBorder"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:contentDescription="@null"
+        android:src="@drawable/snow_border"
+        android:scaleType="centerCrop"
+        android:alpha="0.85"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

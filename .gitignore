@@ -1,0 +1,34 @@
+# Root .gitignore for the CTAPDEVL Android projects.
+# Applies repo-wide, complementing each project's own .gitignore.
+
+# Gradle
+.gradle/
+build/
+/captures/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+local.properties
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Build outputs (kept out of source control)
+*.apk
+*.aab
+*.ap_
+*.dex
+# ...except the CVApp release build, deliberately shipped for quick install
+!CVApp/app-release.apk
+
+# Signing (never commit secrets)
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# OS files
+.DS_Store
+Thumbs.db
