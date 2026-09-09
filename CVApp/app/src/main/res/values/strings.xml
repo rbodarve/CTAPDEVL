@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">CVApp</string>
-    <string name="profile_photo" />
-    <string name="Contact" />
-    <string name="junior_machine_engineer">Junior Machine Engineer</string>
+    <string name="profile_photo">Profile photo of Renaire B. Odarve</string>
+    <string name="Contact">Contact</string>
+    <string name="junior_machine_engineer">Junior Machine Learning Engineer</string>
     <string name="_639691912966">+639691912966</string>
     <string name="rbodarve_gmail_com">rbodarve@gmail.com</string>
     <string name="davao_city_philippines">Davao City, Philippines</string>
@@ -19,4 +19,5 @@
     <string name="email">Email</string>
     <string name="portfolio">Portfolio</string>
     <string name="renaire_b._odarve">Renaire B. Odarve</string>
+    <string name="no_app_available">No app available to handle this action</string>
 </resources>

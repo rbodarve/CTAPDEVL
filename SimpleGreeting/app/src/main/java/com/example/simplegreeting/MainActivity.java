@@ -1,4 +1,4 @@
-package com.example.hellouserapp;
+package com.example.simplegreeting;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             if (name.isEmpty()) {
                 // Show a Toast instead of updating the TextView
                 Toast.makeText(MainActivity.this,
-                        "Please enter your name",
+                        R.string.please_enter_your_name,
                         Toast.LENGTH_SHORT).show();
             } else {
                 String message = "Hello, " + name + "! Welcome to Android Development.";

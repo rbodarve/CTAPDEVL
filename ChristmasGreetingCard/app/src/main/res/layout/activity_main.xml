@@ -69,7 +69,7 @@
                 android:fontFamily="@font/greatvibes_regular"
                 android:text="@string/greetings"
                 android:textAlignment="center"
-                android:textColor="#FFEB3B"
+                android:textColor="@color/christmas_gold"
                 android:textSize="22sp"
                 android:paddingTop="12dp" />
 
@@ -81,9 +81,9 @@
                 android:fontFamily="@font/comfortaa_regular"
                 android:lineSpacingExtra="6dp"
                 android:paddingTop="24dp"
-                android:text="@string/dear"
+                android:text="@string/card_message"
                 android:textAlignment="center"
-                android:textColor="#000000"
+                android:textColor="@color/white"
                 android:textSize="12sp" />
 
             <TextView
@@ -93,7 +93,7 @@
                 android:fontFamily="@font/greatvibes_regular"
                 android:text="@string/from_your_name_here"
                 android:textAlignment="center"
-                android:textColor="#FFEB3B"
+                android:textColor="@color/christmas_gold"
                 android:textSize="22sp"
                 android:paddingTop="12dp" />
         </LinearLayout>
@@ -103,11 +103,11 @@
         android:id="@+id/toastButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#1B5E20"
+        android:backgroundTint="@color/christmas_green"
         android:paddingHorizontal="26dp"
         android:paddingVertical="15dp"
         android:text="@string/send_christmas_greeting"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/bottomBorder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

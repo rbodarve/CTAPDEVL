@@ -46,11 +46,7 @@ software.
 | --- | --- | --- | --- |
 | [CVApp](CVApp/) | A digital CV / business card with tappable buttons that open the dialer, an email draft, and a portfolio link. | `Intent` (ACTION_DIAL / ACTION_SENDTO / ACTION_VIEW), `Uri` | 23 |
 | [ChristmasGreetingCard](ChristmasGreetingCard/) | An edge-to-edge greeting card with a fade-in tree animation and a Toast button. | `AlphaAnimation`, `EdgeToEdge`, window insets, `Toast` | 24 |
-| [SimpleGreeting](SimpleGreeting/) | A name-input greeter that echoes a welcome message, or prompts via Toast when empty. | `EditText`, `TextView`, `Toast`, click listeners | — |
-
-> **Note:** `SimpleGreeting` is a code snippet (a single `MainActivity.java` +
-> `activity_main.xml`), not a standalone Gradle project. Drop the two files into
-> an Android Studio project to run it.
+| [SimpleGreeting](SimpleGreeting/) | A name-input greeter that echoes a welcome message, or prompts via Toast when empty. | `EditText`, `TextView`, `Toast`, click listeners | 23 |
 
 ## Installation
 
@@ -81,8 +77,8 @@ cd CVApp
 ./gradlew installDebug   # build and install on a connected device/emulator
 ```
 
-Or use **File → Open** in Android Studio and select the `CVApp` or
-`ChristmasGreetingCard` folder.
+Or use **File → Open** in Android Studio and select the `CVApp`,
+`ChristmasGreetingCard`, or `SimpleGreeting` folder.
 
 ## Usage
 
@@ -94,8 +90,10 @@ Launch the app, then tap:
 - **Email** — opens your email client with a new message to the contact.
 - **Portfolio** — opens the portfolio/LinkedIn link in a browser.
 
-A prebuilt [`app-release.apk`](CVApp/app-release.apk) is included for quick
-installation without building:
+A prebuilt APK is available for quick installation without building. Download
+it from the [**v1.0 release**](https://github.com/rbodarve/CTAPDEVL/releases/tag/v1.0)
+and open it on an Android device (you may need to allow "Install unknown apps"),
+or install a locally checked-out copy over USB:
 
 ```bash
 adb install CVApp/app-release.apk
@@ -108,13 +106,11 @@ Toast greeting.
 
 ### SimpleGreeting
 
-Enter a name and tap **Greet** to see a welcome message. Leaving the field empty
-shows a "Please enter your name" Toast.
+Enter a name and tap **Greet Me** to see a personalized welcome message. Leaving
+the field empty shows a "Please enter your name" Toast.
 
 ## Known issues and limitations
 
-- `SimpleGreeting` has no Gradle wrapper or manifest; it must be added to an
-  existing project to build.
 - Only the default template unit/instrumented tests are present — there is no
   meaningful test coverage yet.
 - `CVApp` contains hard-coded personal contact details in

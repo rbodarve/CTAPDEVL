@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleGreeting</string>
+    <string name="please_enter_your_name">Please enter your name.</string>
+    <string name="welcome_to_android_development">Welcome to Android Development</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="greet_me">Greet Me</string>
+</resources>
